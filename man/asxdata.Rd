@@ -13,7 +13,7 @@ A data frame with 1943 rows and 5 columns:
 \item{Company name}{Full Name of the listed company}
 \item{GICs industry group}{Industry Classification for the listed company}
 \item{Listing data}{Date the company got listed on exchange}
-\item{Market Cap}{Market Capitalisation of the listed company as on 20th October 2024}
+\item{MarketCap}{Market Capitalisation of the listed company in ('000000 AUD) as on 20th October 2024}
 }
 }
 }

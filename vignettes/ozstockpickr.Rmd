@@ -1,0 +1,19 @@
+---
+title: "Demonstrating: Optimal Stock Market Choices Through Ozstockpickr"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Demonstrating: Optimal Stock Market Choices Through Ozstockpickr}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ozstockpickr)
+```

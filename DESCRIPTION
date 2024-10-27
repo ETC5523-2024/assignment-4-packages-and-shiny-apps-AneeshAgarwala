@@ -17,5 +17,6 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
-    shiny
+    shiny,
+    shiny.semantic
 URL: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-AneeshAgarwala/

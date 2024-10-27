@@ -47,8 +47,6 @@ The slider allows users to specify a minimum and maximum market capitalization, 
 
 From the dashboard below we observe that given the above mentioned criteria we are left with 3 companies Commonwealth Bank, National Australia Bank & Westpac.
 
-::: {#shiny-app}
 <iframe src = "https://aneeshag1102.shinyapps.io/stockdash/" class = "shiny-app" width = "100%" height = "800">
-:::
 
 ### 

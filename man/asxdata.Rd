@@ -18,7 +18,7 @@ A data frame with 1943 rows and 5 columns:
 }
 }
 \source{
-<https://www.asx.com.au/markets/trade-our-cash-market/direct
+\url{https://www.asx.com.au/markets/trade-our-cash-market/direct}
 }
 \usage{
 asxdata

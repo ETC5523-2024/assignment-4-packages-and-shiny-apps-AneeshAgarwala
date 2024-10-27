@@ -1,5 +1,5 @@
 ---
-title: "Demonstrating: Optimal Stock Market Choices Through Ozstockpickr"
+title: "Demonstrating Optimal Stock Market Choices Through Ozstockpickr's Stock Data Viewer Shiny App"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Demonstrating: Optimal Stock Market Choices Through Ozstockpickr}
@@ -7,13 +7,45 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+The Stock Data Viewer is a Shiny application designed to help users visualize and interact with stock market data. Users can filter stocks based on industry group and market capitalization, providing an easy way to explore relevant information. For the demonstration we will be using the Australian Stock Exchange Data.
+
+```{r}
+library(ozstockpickr)
+print(asxdata)
 ```
 
-```{r setup}
-library(ozstockpickr)
+## Running the App
+
+To start the application, make sure you have the 'ozstockpickr' library installed already. The shiny app can be launched by using the following code below:
+
+```{r eval=FALSE}
+stockdash()
 ```
+
+## User Interface
+
+The app features a clean and minimal interface with the following components:.
+
+1.  **Filter Options**:
+
+    -   **Industry Group**: A dropdown menu for selecting the industry group.
+
+    -   **Market Capitalization**: A slider for selecting a range of market capitalizations.
+
+2.  **Data Table**: Displays the filtered stock data based on user selections.
+
+## Example Usage
+
+### Selecting Industry Group
+
+Users can select an industry group from the drop-down. Selecting "All" will display stocks from all industry groups. For this demonstration we will select "Banks".
+
+![](images/clipboard-1682686530.png)
+
+### Filtering Market Capitalization
+
+The slider allows users to specify a minimum and maximum market capitalization, dynamically updating the table. We have selected the range from 100000 million AUD to 250000 million AUD.
+
+![](images/clipboard-3283505361.png)
+
+The **Stock Data Viewer** Shiny app provides a straightforward interface for exploring stock data, making it easier for users to find relevant information based on their criteria.

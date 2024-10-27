@@ -11,5 +11,5 @@
 #'    \item{Listing data}{Date the company got listed on exchange}
 #'    \item{MarketCap}{Market Capitalisation of the listed company in ('000000 AUD) as on 20th October 2024}
 #' }
-#' @source <https://www.asx.com.au/markets/trade-our-cash-market/direct
+#' @source <https://www.asx.com.au/markets/trade-our-cash-market/direct>
 "asxdata"

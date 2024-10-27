@@ -1,4 +1,5 @@
 library(shiny)
+library(shiny.semantic)
 library(DT)
 
 # Define UI for the application

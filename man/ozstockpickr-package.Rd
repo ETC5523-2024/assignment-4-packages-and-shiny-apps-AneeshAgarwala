@@ -8,4 +8,11 @@
 \description{
 The package assists user in making smart decisions while selecting stocks, identifying them by industry and market capitalisation.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-AneeshAgarwala/}
+}
+
+}
 \keyword{internal}

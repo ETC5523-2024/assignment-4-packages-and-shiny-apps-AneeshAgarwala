@@ -12,8 +12,3 @@ stockdash()
 \description{
 Provides the user facility to choose stocks based on Industry & Market Capilisation of the Company
 }
-\examples{
-\dontrun{
-run_app()
-}
-}

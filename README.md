@@ -32,8 +32,6 @@ library(ozstockpickr)
 stockdash()
 ```
 
-<img src="images/clipboard-3283505361.png" width="685" />
-
 ## Dependencies
 
 The ‘ozstockpicker’ package relies on the following R packages:

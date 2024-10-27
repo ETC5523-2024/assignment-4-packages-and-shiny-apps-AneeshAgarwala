@@ -1,9 +1,9 @@
 Package: ozstockpickr
 Type: Package
 Title: A Stock Picker for Australian Stock Market
-Version: 0.1.0
+Version: 1.0.0
 Author: Aneesh Agarwal
-Maintainer: The package maintainer <aaga0022@student.monash.edu>
+Maintainer: Aneesh Agarwal <aaga0022@student.monash.edu>
 Description: The package assists user in making smart decisions while selecting stocks, identifying them by industry and market capitalisation.
 License: GPL (>= 3)
 Encoding: UTF-8
@@ -18,3 +18,4 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     shiny
+URL: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-AneeshAgarwala/

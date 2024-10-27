@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-[ozstockpicker](https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-AneeshAgarwala/) is an R package designed to assist users in analyzing
+‘ozstockpicker’ is an R package designed to assist users in analyzing
 and visualizing stock market data, specifically focusing on Australian
 stocks. The package includes a Shiny application that allows for
 interactive exploration of stock data through the stockdash() function.
@@ -51,5 +51,5 @@ The application uses a data set containing Australian stock market data.
 
 ## License
 
-This package is licensed under the GNU License. See the LICENSE file for
+This package is licensed under the MIT License. See the LICENSE file for
 details.
